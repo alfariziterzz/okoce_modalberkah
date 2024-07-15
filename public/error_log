@@ -1,0 +1,226 @@
+[27-Aug-2023 15:20:15 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:21:15 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:21:23 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/g...', '/home/gbshgdwu/...', 582)
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/g...', '/home/gbshgdwu/...', 582)
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/gbshgdwu/...')
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[27-Aug-2023 15:22:06 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/g...', '/home/gbshgdwu/...', 582)
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/g...', '/home/gbshgdwu/...', 582)
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/gbshgdwu/...')
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[27-Aug-2023 15:22:44 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/g...', '/home/gbshgdwu/...', 582)
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/g...', '/home/gbshgdwu/...', 582)
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/gbshgdwu/...')
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[27-Aug-2023 15:22:47 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/g...', '/home/gbshgdwu/...', 582)
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/g...', '/home/gbshgdwu/...', 582)
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/home/gbshgdwu/...')
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ErrorException))
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[27-Aug-2023 15:36:48 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:36:53 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:40:38 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:45:26 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:45:56 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:46:27 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:46:28 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:46:58 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:48:15 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:48:18 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:48:37 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:49:02 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:49:04 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 15:49:10 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/gbshgdwu/public_html/vendor/composer/platform_check.php on line 24
+[27-Aug-2023 17:18:10 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[27-Aug-2023 17:18:27 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[27-Aug-2023 17:18:46 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[27-Aug-2023 17:56:57 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[27-Aug-2023 17:58:02 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[28-Aug-2023 09:39:11 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[28-Aug-2023 09:40:02 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[28-Aug-2023 09:40:06 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[28-Aug-2023 09:40:15 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582
+[28-Aug-2023 09:40:48 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: include(/home/gbshgdwu/public_html/vendor/composer/../symfony/http-kernel/Exception/HttpException.php): Failed to open stream: No such file or directory in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php:582
+Stack trace:
+#0 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(582): include('/home/gbshgdwu/...')
+#3 /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}()
+#4 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#9 /home/gbshgdwu/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/gbshgdwu/public_html/vendor/composer/ClassLoader.php on line 582

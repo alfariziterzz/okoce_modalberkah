@@ -1,0 +1,30 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+class RolePermissionSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $data = array('role_id' => 1,'permissions_id' => 1);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 2);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 3);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 4);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 5);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 6);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 7);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 8);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 9);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 10);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 11);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 12);	DB::table("role_permissions")->insert($data);
+        $data = array('role_id' => 1,'permissions_id' => 13);	DB::table("role_permissions")->insert($data);
+        
+    }
+}

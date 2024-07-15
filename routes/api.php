@@ -1,0 +1,49 @@
+<?php
+
+use App\Http\Controllers\authentications\AuthController;
+use App\Http\Controllers\KabupatenController;
+use App\Http\Controllers\KecamatanController;
+use App\Http\Controllers\KelurahanController;
+use App\Http\Controllers\MemberController;
+use App\Http\Controllers\MesjidController;
+use App\Http\Controllers\pages\HomePage;
+use App\Http\Controllers\ProvinsiController;
+use App\Models\KeluarahanModel;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| API Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register API routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "api" middleware group. Make something great!
+|
+*/
+
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
+Route::group(['prefix' => 'auth',],function () {
+    Route::post('login', [AuthController::class, 'login']);
+    Route::get('user/me', [AuthController::class, 'getProfileMe']);
+    Route::post('register', [AuthController::class, 'register']);
+    Route::middleware('auth:api')->group(function () {
+      Route::get('logout', [AuthController::class, 'logout']);
+      Route::post('me', [AuthController::class, 'getProfileMe']);
+    });
+    Route::get('getpengajuanpinjaman/{ref}', [MesjidController::class, 'findAll']);
+    
+  }
+);
+Route::middleware(['auth:api'])->group(function () {
+  
+});
+Route::get('provinsi/all', [ProvinsiController::class, 'findAll']);
+Route::get('jenisusaha/all', [MemberController::class, 'finJenisUsahadAll']);
+Route::get('kabupaten/prov/{id}', [KabupatenController::class, 'findByProv']);
+Route::get('kecamatan/kab/{id}', [KecamatanController::class, 'findByKab']);
+Route::get('keluarahan/kec/{id}', [KelurahanController::class, 'findByKec']);
+Route::get('member/all/{ref_mesjid}', [MemberController::class, 'findAll']);
