@@ -22,7 +22,7 @@
     <div class="container">
       <section class="features-overview" id="features-section" >
         <div class="content-header">
-          <h2>Program apa yang akan dilakukan?</h2>
+          <h2 style="color: #1075B0;">Program apa yang akan dilakukan?</h2>
           <h6 class="section-subtitle text-muted">Yuk Kita Kenal Lebih Dekat Dengan Modal Berkah</h6>
         </div>
         <div class="d-md-flex justify-content-between">
@@ -52,7 +52,7 @@
       <section class="case-studies" id="gallery-section">
         <div class="row grid-margin">
           <div class="col-12 text-center pb-5">
-            <h2>Solusi Kemajuan UMKM tanpa Riba, Dimulai Dari Sini</h2>
+            <h2 style="color: #1075B0;">Solusi Kemajuan UMKM tanpa Riba, Dimulai Dari Sini</h2>
           </div>
           <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
             <div class="card color-cards">

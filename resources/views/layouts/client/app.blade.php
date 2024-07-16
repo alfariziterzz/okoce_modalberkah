@@ -119,12 +119,13 @@
         <img src="{{ asset('assets/img/logo-okoce.png') }}" width="100" class="img-fluid">
         <img src="{{ asset('assets/img/logo-gerakan-sosial.png') }}" width="100" alt="gerakan sosial Ok Oce" class="img-fluid">
       </div>
-      <p>Alamat: Jl. Contoh No.123, Kota ABC, 12345</p>
-      <p>Supported by Modal Berkah</p>
-      <p>Contact: 0812-3456-7890 | email@example.com</p>
+      <strong><p>Perkumpulan Gerakan OK OCE Indonesia</p></strong>
+      <p style="color: grey;">Jl. Tebet Barat Dalam VII No.3, RT.9/RW.6, Tebet Barat, Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12810</p>
+      <br>
+      <strong><p>Contact Info</p></strong>
+      <p style="color: grey;">WhatsApp: 0812-3456-7890 | Email: modalberkah.indonesia@gmail.com | Instagram: @modal.berkah</p>
     </div>
   </div>
-  
   <footer class="footer-box">
     <div class="container">
       <p class="text-center p-0 m-0">Copyright © 2024<a href="#" class="px-1" style="color: #E3242B;">Modal Berkah.</a>All rights reserved.</p>
