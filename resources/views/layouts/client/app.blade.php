@@ -95,7 +95,7 @@
               <a class="nav-link" href="#contact-section">INFORMASI</a>
             </li>
             <li class="nav-item donation">
-              <a class="nav-link" href="#zakat">DONASI</a>
+            <a class="nav-link" href="{{ route('donasi') }}">DONASI</a>
             </li>
             <li class="nav-item ml-0 pl-4 pl-lg-0">
               <a href={{ route('mesjid.register')}} class="btn btn-red"><i class="fa fa-user-plus"></i>Daftar</a>

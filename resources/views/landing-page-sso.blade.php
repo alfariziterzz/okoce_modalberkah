@@ -55,41 +55,41 @@
           <h2 style="color: #1075B0;">Solusi Kemajuan UMKM tanpa Riba, Dimulai Dari Sini</h2>
         </div>
         <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
-          <div class="card color-cards">
-            <div class="card-body p-0">
-              <div class="card-image pop">
-                  <img src="{{ asset('assets/landing-page-sso/images/oke1.jpeg') }}">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-          <div class="card color-cards">
-            <div class="card-body p-0">
-              <div class="card-image pop">
-                  <img src="{{ asset('assets/landing-page-sso/images/foto2.jpeg') }}">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
-          <div class="card color-cards">
-            <div class="card-body p-0">
-              <div class="card-image pop">
-                  <img src="{{ asset('assets/landing-page-sso/images/foto3.jpeg') }}">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
-          <div class="card color-cards">
-            <div class="card-body p-0">
-              <div class="card-image pop">
-                  <img src="{{ asset('assets/landing-page-sso/images/4.jpeg') }}">
-              </div>
-            </div>
-          </div>
-        </div>
+  <div class="card color-cards">
+    <div class="card-body p-0">
+      <div class="card-image pop">
+        <img src="{{ asset('assets/landing-page-sso/images/oke1.jpeg') }}" alt="Gambar 1">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+  <div class="card color-cards">
+    <div class="card-body p-0">
+      <div class="card-image pop">
+        <img src="{{ asset('assets/landing-page-sso/images/foto2.jpeg') }}" alt="Gambar 2">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+  <div class="card color-cards">
+    <div class="card-body p-0">
+      <div class="card-image pop">
+        <img src="{{ asset('assets/landing-page-sso/images/foto3.jpeg') }}" alt="Gambar 3">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
+  <div class="card color-cards">
+    <div class="card-body p-0">
+      <div class="card-image pop">
+        <img src="{{ asset('assets/landing-page-sso/images/4.jpeg') }}" alt="Gambar 4">
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </section>
     <section class="case-studies" id="news-section">

@@ -14,6 +14,18 @@ use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+// Beranda
+
+// Galeri
+
+// Berita
+
+// Informasi
+
+// Donasi
+Route::get('/donasi', function(){
+  return view('client.donasi.index');
+})->name('donasi');
 /*
 |--------------------------------------------------------------------------
 | Web Routes
