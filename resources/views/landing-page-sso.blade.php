@@ -6,11 +6,6 @@
     <div class="container">
       <h1 class="font-weight-semibold" style="color: #1075B0;" >MODAL <span style="color: #E3242B;">BERKAH</span></h1>
       <h6 class="font-weight-normal text-muted pb-3">Merupakan program keumatan berbasis lembaga atau masjid yang bertujuan untuk menghimpun dan menyalurkan infaq dalam bentuk pinjaman dana kepada pelaku UMKM tanpa adanya riba</h6>
-      <p class="font-weight-normal text-muted pb-3">Support By</p>
-      <div>
-        <img src="{{ asset('assets/img/logo-okoce.png') }}" width="100" class="img-fluid">
-        <img src="{{ asset('assets/img/logo-gerakan-sosial.png') }}" width="100" alt="gerakan sosial Ok Oce" class="img-fluid">
-      </div>
       <div>
         <a href={{ route('mesjid.register') }} class="btn btn-opacity btn-info ml-1">Registrasi Mesjid Sekarang</a>
       </div>
@@ -22,7 +17,7 @@
   <div class="container">
     <section class="features-overview" id="features-section">
       <div class="content-header text-center">
-        <h2 style="color: #1075B0;">Program apa yang akan dilakukan?</h2>
+        <h2 style="color: #1075B0; font-weight: 600;">Program apa yang akan dilakukan?</h2>
         <h6 class="section-subtitle text-muted">Yuk Kita Kenal Lebih Dekat Dengan Modal Berkah</h6>
       </div>
       <div class="row">
@@ -52,7 +47,7 @@
     <section class="case-studies" id="gallery-section">
       <div class="row grid-margin">
         <div class="col-12 text-center pb-5">
-          <h2 style="color: #1075B0;">Solusi Kemajuan UMKM tanpa Riba, Dimulai Dari Sini</h2>
+          <h2 style="color: #1075B0; font-weight: 600;">Solusi Kemajuan UMKM tanpa Riba, Dimulai Dari Sini</h2>
         </div>
         <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
   <div class="card color-cards">
@@ -93,10 +88,8 @@
       </div>
     </section>
     <section class="case-studies" id="news-section">
-      <div class="row grid-margin">
         <div class="col-12 text-center pb-5">
-          <h2 style="color: #1075B0;">Berita Terkini</h2>
-        </div>
+          <h2 style="color: #1075B0; font-weight: 600;">Berita Terkini</h2>
       </div>
       <div class="row">
         <div class="col-md-4">

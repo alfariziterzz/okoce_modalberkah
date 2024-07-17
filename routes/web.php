@@ -21,7 +21,9 @@ use Illuminate\Support\Facades\Route;
 // Berita
 
 // Informasi
-
+Route::get('/informasi', function(){
+  return view('client.informasi.index');
+})->name('informasi');
 // Donasi
 Route::get('/donasi', function(){
   return view('client.donasi.index');

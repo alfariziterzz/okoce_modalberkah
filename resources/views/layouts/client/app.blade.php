@@ -89,10 +89,10 @@
               <a class="nav-link" href="#gallery-section">GALERI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#faq-section">BERITA</a>
+              <a class="nav-link" href="#news-section">BERITA</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-section">INFORMASI</a>
+            <li class="nav-item information">
+              <a class="nav-link" href="{{ route('informasi') }}">INFORMASI</a>
             </li>
             <li class="nav-item donation">
             <a class="nav-link" href="{{ route('donasi') }}">DONASI</a>
