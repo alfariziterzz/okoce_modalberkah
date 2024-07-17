@@ -9,8 +9,15 @@
         <h2 style="color: #1075B0;">ZAKAT, INFAQ, SEDEKAH, WAKAF dan DANA SOSIAL</h2>
         <h2 style="color: #E3242B"><i>Melalui</i></h2>
         <h2 style="color: #E3242B;" >OK <span style="color: #1075B0;">OCE KEMANUSIAAN</span></h2>
-        <h6 class="section-subtitle text-muted">Yuk Kita Kenal Lebih Dekat Dengan Modal Berkah</h6>
       </div>
       </div>
     </section>
+    <section id="zakat" class="mb-10">
+        <div class="container">
+          <center>
+            <img src="{{ asset('assets/img/zakat.jpeg') }}" width="50%" class="img-fluid">
+          </center>
+          <br>
+        </div>
+      </section>
 @endsection

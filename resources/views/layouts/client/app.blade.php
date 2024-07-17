@@ -57,6 +57,9 @@
       border-top-left-radius: 30px;
       border-top-right-radius: 30px;
     }
+    .navbar-nav .nav-item .nav-item.donation .nav-link.active {
+      color: red !important;
+    }
   </style>
 </head>
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -81,21 +84,21 @@
               <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
               </button>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">BERANDA<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#header-section">BERANDA<span class="sr-only">(current)</span></a>
+              <a class="nav-link {{ Request::is('gallery-section') ? 'active' : '' }}" href="#gallery-section">GALERI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery-section">GALERI</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#news-section">BERITA</a>
+              <a class="nav-link {{ Request::is('news-section') ? 'active' : '' }}" href="#news-section">BERITA</a>
             </li>
             <li class="nav-item information">
-              <a class="nav-link" href="{{ route('informasi') }}">INFORMASI</a>
+              <a class="nav-link {{ Request::is('informasi') ? 'active' : '' }}" href="{{ route('informasi') }}">INFORMASI</a>
             </li>
             <li class="nav-item donation">
-            <a class="nav-link" href="{{ route('donasi') }}">DONASI</a>
+              <a class="nav-link {{ Request::is('donasi') ? 'active' : '' }}" href="{{ route('donasi') }}">DONASI</a>
             </li>
             <li class="nav-item ml-0 pl-4 pl-lg-0">
               <a href={{ route('mesjid.register')}} class="btn btn-red"><i class="fa fa-user-plus"></i>Daftar</a>

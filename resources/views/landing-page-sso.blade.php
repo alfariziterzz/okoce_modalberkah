@@ -50,8 +50,8 @@
           <h2 style="color: #1075B0; font-weight: 600;">Solusi Kemajuan UMKM tanpa Riba, Dimulai Dari Sini</h2>
         </div>
         <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
-  <div class="card color-cards">
-    <div class="card-body p-0">
+      <div class="card color-cards">
+      <div class="card-body p-0">
       <div class="card-image pop">
         <img src="{{ asset('assets/landing-page-sso/images/oke1.jpeg') }}" alt="Gambar 1">
       </div>
