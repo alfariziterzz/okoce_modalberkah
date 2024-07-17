@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="{{ asset('assets/landing-page-sso/vendors/mdi/css/materialdesignicons.min.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/landing-page-sso/vendors/aos/css/aos.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/landing-page-sso/css/style.min.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     .card-image {
       height: 200px;
@@ -57,8 +58,21 @@
       border-top-left-radius: 30px;
       border-top-right-radius: 30px;
     }
-    .navbar-nav .nav-item .nav-item.donation .nav-link.active {
+    .navbar-nav .nav-item .nav-link.active {
       color: red !important;
+    }
+    @media (max-width: 767px) {
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .contact-info a {
+        margin: 5px 10px;
+      }
+    }
+    .contact-info a {
+      margin: 0 15px;
     }
   </style>
 </head>
@@ -89,10 +103,10 @@
               <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">BERANDA<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link {{ Request::is('gallery-section') ? 'active' : '' }}" href="#gallery-section">GALERI</a>
+              <a class="nav-link {{ Request::is('gallery-section') ? 'active' : '' }}" href="{{ url('/') }}">GALERI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link {{ Request::is('news-section') ? 'active' : '' }}" href="#news-section">BERITA</a>
+              <a class="nav-link {{ Request::is('news-section') ? 'active' : '' }}" href="{{ url('/') }}">BERITA</a>
             </li>
             <li class="nav-item information">
               <a class="nav-link {{ Request::is('informasi') ? 'active' : '' }}" href="{{ route('informasi') }}">INFORMASI</a>
@@ -101,10 +115,10 @@
               <a class="nav-link {{ Request::is('donasi') ? 'active' : '' }}" href="{{ route('donasi') }}">DONASI</a>
             </li>
             <li class="nav-item ml-0 pl-4 pl-lg-0">
-              <a href={{ route('mesjid.register')}} class="btn btn-red"><i class="fa fa-user-plus"></i>Daftar</a>
+              <a href={{ route('mesjid.register')}} class="btn btn-red">Daftar</a>
             </li>
             <li class="nav-item ml-0 ml-lg-2 pl-4 pl-lg-0">
-              <a href={{ route('auth-login-basic')}} class="btn btn-blue"><i class="fa fa-sign-in"></i>Masuk</a>
+              <a href={{ route('auth-login-basic')}} class="btn btn-blue">Masuk</a>
             </li>
           </ul>
         </div>
@@ -126,7 +140,11 @@
       <p style="color: grey;">Jl. Tebet Barat Dalam VII No.3, RT.9/RW.6, Tebet Barat, Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12810</p>
       <br>
       <strong><p>Contact Info</p></strong>
-      <p style="color: grey;">WhatsApp: 0812-3456-7890 | Email: modalberkah.indonesia@gmail.com | Instagram: @modal.berkah</p>
+      <div class="contact-info">
+        <a href="https://wa.me/6281234567890" target="_blank" style="color: grey;"><i class="fab fa-whatsapp"></i> 0817220855</a>
+        <a href="mailto:modalberkah.indonesia@gmail.com" target="_blank" style="color: grey;"><i class="fas fa-envelope"></i> modalberkah.indonesia@gmail.com </a>
+        <a href="https://instagram.com/modal.berkah" target="_blank" style="color: grey;"><i class="fab fa-instagram"></i> @modal.berkah</a>
+      </div>
     </div>
   </div>
   <footer class="footer-box">
