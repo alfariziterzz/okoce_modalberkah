@@ -170,6 +170,8 @@
     border: none;
   }
   .btn-primary.btn-block {
+    background-color: #1075B0;
+    border: none;
     width: 100%;
   }
   .card-img-top {
