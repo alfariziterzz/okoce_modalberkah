@@ -133,8 +133,9 @@
     <div class="container">
     <p class="font-weight-normal text-muted pb-3">Support By</p>
       <div>
-        <img src="{{ asset('assets/img/logo-okoce.png') }}" width="100" class="img-fluid">
-        <img src="{{ asset('assets/img/logo-gerakan-sosial.png') }}" width="100" alt="gerakan sosial Ok Oce" class="img-fluid">
+        <img src="{{ asset('assets/img/okoce.png') }}" width="100" class="img-fluid">
+        <img src="{{ asset('assets/img/okocekemanusiaan.png') }}" width="100" class="img-fluid">
+        <img src="{{ asset('assets/img/gerakansosial.png') }}" width="100" alt="gerakan sosial Ok Oce" class="img-fluid">
       </div>
       <strong><p>Perkumpulan Gerakan OK OCE Indonesia</p></strong>
       <p style="color: grey;">Jl. Tebet Barat Dalam VII No.3, RT.9/RW.6, Tebet Barat, Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12810</p>
