@@ -1,7 +1,7 @@
 <?php
 
 return [
-  /*
+    /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
     |--------------------------------------------------------------------------
@@ -12,12 +12,12 @@ return [
     |
     */
 
-  'defaults' => [
-    'guard' => 'web',
-    'passwords' => 'users',
-  ],
+    'defaults' => [
+        'guard' => 'web',          // Default guard untuk autentikasi
+        'passwords' => 'users',    // Default pengaturan reset password
+    ],
 
-  /*
+    /*
     |--------------------------------------------------------------------------
     | Authentication Guards
     |--------------------------------------------------------------------------
@@ -34,18 +34,22 @@ return [
     |
     */
 
-  'guards' => [
-    'web' => [
-      'driver' => 'session',
-      'provider' => 'users',
+    'guards' => [
+        'web' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        'api' => [
+            'driver' => 'passport',
+            'provider' => 'users',
+        ],
+        'cms_admin' => [
+        'driver' => 'session',
+        'provider' => 'cms_admins',
+        ],
     ],
-    'api' => [
-      'driver' => 'passport',
-      'provider' => 'users',
-    ],
-  ],
 
-  /*
+    /*
     |--------------------------------------------------------------------------
     | User Providers
     |--------------------------------------------------------------------------
@@ -62,19 +66,18 @@ return [
     |
     */
 
-  'providers' => [
-    'users' => [
-      'driver' => 'eloquent',
-      'model' => App\Models\User::class,
+    'providers' => [
+        'users' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\User::class,
+        ],
+        'cms_admins' => [
+        'driver' => 'eloquent',
+        'model' => App\Models\CmsAdmin::class,
+        ],
     ],
 
-    // 'users' => [
-    //     'driver' => 'database',
-    //     'table' => 'users',
-    // ],
-  ],
-
-  /*
+    /*
     |--------------------------------------------------------------------------
     | Resetting Passwords
     |--------------------------------------------------------------------------
@@ -93,16 +96,22 @@ return [
     |
     */
 
-  'passwords' => [
-    'users' => [
-      'provider' => 'users',
-      'table' => 'password_reset_tokens',
-      'expire' => 60,
-      'throttle' => 60,
+    'passwords' => [
+        'users' => [
+            'provider' => 'users',
+            'table' => 'password_reset_tokens',
+            'expire' => 60,
+            'throttle' => 60,
+        ],
+        'admins' => [      // Tambahkan konfigurasi untuk admin jika diperlukan
+            'provider' => 'admins',
+            'table' => 'password_reset_tokens', // Pastikan tabel reset password ada
+            'expire' => 60,
+            'throttle' => 60,
+        ],
     ],
-  ],
 
-  /*
+    /*
     |--------------------------------------------------------------------------
     | Password Confirmation Timeout
     |--------------------------------------------------------------------------
@@ -113,5 +122,5 @@ return [
     |
     */
 
-  'password_timeout' => 10800,
+    'password_timeout' => 10800,
 ];

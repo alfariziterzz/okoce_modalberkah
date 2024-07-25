@@ -11,6 +11,7 @@ use App\Http\Controllers\pages\UserPage;
 use App\Http\Controllers\PinjamanController;
 use App\Http\Controllers\RolesController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\Auth\CmsAdminLoginController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -28,6 +29,19 @@ Route::get('/informasi', function(){
 Route::get('/donasi', function(){
   return view('client.donasi.index');
 })->name('donasi');
+
+// Auth
+
+Route::get('/admin/login', [CmsAdminLoginController::class, 'showLoginForm'])->name('admin.login');
+Route::post('/admin/login', [CmsAdminLoginController::class, 'login']);
+Route::post('/admin/logout', [CmsAdminLoginController::class, 'logout'])->name('admin.logout');
+
+Route::middleware('cms_admin')->group(function() {
+    Route::get('/admin/dashboard', function() {
+        return view('admin.dashboard');
+    })->name('admin.dashboard');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -169,3 +183,6 @@ Route::get('/member/register/{ref_mesjid}', [MemberController::class, 'register'
 // register mesjid
 Route::get('/mesjid/register', [MesjidController::class, 'register'])->name('mesjid.register');
 Route::post('mesjid/register/store', [MesjidController::class, 'storeRegister'])->name('mst.mesjid.storeregister');  
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

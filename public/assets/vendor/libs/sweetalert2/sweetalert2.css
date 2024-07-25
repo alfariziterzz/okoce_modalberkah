@@ -6,7 +6,7 @@
   padding: 1em;
   overflow-y: hidden;
   background: #fff;
-  box-shadow: 0 0 1px hsla(0deg, 0%, 0%, 0.075), 0 1px 2px hsla(0deg, 0%, 0%, 0.075), 1px 2px 4px hsla(0deg, 0%, 0%, 0.075), 1px 3px 8px hsla(0deg, 0%, 0%, 0.075), 2px 4px 16px hsla(0deg, 0%, 0%, 0.075);
+  box-shadow: 0 0 1px hsla(0, 0%, 0%, 0.075), 0 1px 2px hsla(0, 0%, 0%, 0.075), 1px 2px 4px hsla(0, 0%, 0%, 0.075), 1px 3px 8px hsla(0, 0%, 0%, 0.075), 2px 4px 16px hsla(0, 0%, 0%, 0.075);
   pointer-events: all;
 }
 .swal2-popup.swal2-toast > * {
@@ -1802,17 +1802,17 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .swal2-modal:not([style="display: none;"]),
-.swal2-icon:not([style="display: none;"]),
-.swal2-actions:not([style="display: none;"]),
-.swal2-image:not([style="display: none;"]),
-.swal2-input:not([style="display: none;"]),
-.swal2-file:not([style="display: none;"]),
-.swal2-range:not([style="display: none;"]),
-.swal2-select:not([style="display: none;"]),
-.swal2-radio:not([style="display: none;"]),
-.swal2-checkbox:not([style="display: none;"]),
-.swal2-textarea:not([style="display: none;"]),
-.swal2-footer:not([style="display: none;"]) {
+  .swal2-icon:not([style="display: none;"]),
+  .swal2-actions:not([style="display: none;"]),
+  .swal2-image:not([style="display: none;"]),
+  .swal2-input:not([style="display: none;"]),
+  .swal2-file:not([style="display: none;"]),
+  .swal2-range:not([style="display: none;"]),
+  .swal2-select:not([style="display: none;"]),
+  .swal2-radio:not([style="display: none;"]),
+  .swal2-checkbox:not([style="display: none;"]),
+  .swal2-textarea:not([style="display: none;"]),
+  .swal2-footer:not([style="display: none;"]) {
     display: -ms-flexbox;
     display: flex;
   }

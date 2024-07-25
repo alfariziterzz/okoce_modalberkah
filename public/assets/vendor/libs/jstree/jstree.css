@@ -1190,7 +1190,7 @@
     background-image: url("40px.png");
   }
   .jstree-default-responsive .jstree-node,
-.jstree-default-responsive .jstree-leaf > .jstree-ocl {
+  .jstree-default-responsive .jstree-leaf > .jstree-ocl {
     background: transparent;
   }
   .jstree-default-responsive .jstree-node {
@@ -1205,7 +1205,7 @@
     height: 40px;
   }
   .jstree-default-responsive .jstree-icon,
-.jstree-default-responsive .jstree-icon:empty {
+  .jstree-default-responsive .jstree-icon:empty {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -1222,12 +1222,12 @@
     margin-right: 0;
   }
   .jstree-default-responsive .jstree-ocl,
-.jstree-default-responsive .jstree-themeicon,
-.jstree-default-responsive .jstree-checkbox {
+  .jstree-default-responsive .jstree-themeicon,
+  .jstree-default-responsive .jstree-checkbox {
     background-size: 120px 240px;
   }
   .jstree-default-responsive .jstree-leaf > .jstree-ocl,
-.jstree-default-responsive.jstree-rtl .jstree-leaf > .jstree-ocl {
+  .jstree-default-responsive.jstree-rtl .jstree-leaf > .jstree-ocl {
     background: transparent;
   }
   .jstree-default-responsive .jstree-open > .jstree-ocl {
@@ -1243,17 +1243,17 @@
     background-position: -40px -40px;
   }
   .jstree-default-responsive .jstree-checkbox,
-.jstree-default-responsive .jstree-checkbox:hover {
+  .jstree-default-responsive .jstree-checkbox:hover {
     background-position: -40px -80px;
   }
   .jstree-default-responsive.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox,
-.jstree-default-responsive.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox:hover,
-.jstree-default-responsive .jstree-checked > .jstree-checkbox,
-.jstree-default-responsive .jstree-checked > .jstree-checkbox:hover {
+  .jstree-default-responsive.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox:hover,
+  .jstree-default-responsive .jstree-checked > .jstree-checkbox,
+  .jstree-default-responsive .jstree-checked > .jstree-checkbox:hover {
     background-position: 0 -80px;
   }
   .jstree-default-responsive .jstree-anchor > .jstree-undetermined,
-.jstree-default-responsive .jstree-anchor > .jstree-undetermined:hover {
+  .jstree-default-responsive .jstree-anchor > .jstree-undetermined:hover {
     background-position: 0 -120px;
   }
   .jstree-default-responsive .jstree-anchor {
@@ -1287,10 +1287,10 @@
     box-shadow: none;
   }
   .jstree-default-responsive .jstree-node,
-.jstree-default-responsive .jstree-icon,
-.jstree-default-responsive .jstree-node > .jstree-ocl,
-.jstree-default-responsive .jstree-themeicon,
-.jstree-default-responsive .jstree-checkbox {
+  .jstree-default-responsive .jstree-icon,
+  .jstree-default-responsive .jstree-node > .jstree-ocl,
+  .jstree-default-responsive .jstree-themeicon,
+  .jstree-default-responsive .jstree-checkbox {
     background-image: url("40px.png");
     background-size: 120px 240px;
   }
@@ -2517,7 +2517,7 @@
     background-image: url("40px.png");
   }
   .jstree-default-dark-responsive .jstree-node,
-.jstree-default-dark-responsive .jstree-leaf > .jstree-ocl {
+  .jstree-default-dark-responsive .jstree-leaf > .jstree-ocl {
     background: transparent;
   }
   .jstree-default-dark-responsive .jstree-node {
@@ -2532,7 +2532,7 @@
     height: 40px;
   }
   .jstree-default-dark-responsive .jstree-icon,
-.jstree-default-dark-responsive .jstree-icon:empty {
+  .jstree-default-dark-responsive .jstree-icon:empty {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -2549,12 +2549,12 @@
     margin-right: 0;
   }
   .jstree-default-dark-responsive .jstree-ocl,
-.jstree-default-dark-responsive .jstree-themeicon,
-.jstree-default-dark-responsive .jstree-checkbox {
+  .jstree-default-dark-responsive .jstree-themeicon,
+  .jstree-default-dark-responsive .jstree-checkbox {
     background-size: 120px 240px;
   }
   .jstree-default-dark-responsive .jstree-leaf > .jstree-ocl,
-.jstree-default-dark-responsive.jstree-rtl .jstree-leaf > .jstree-ocl {
+  .jstree-default-dark-responsive.jstree-rtl .jstree-leaf > .jstree-ocl {
     background: transparent;
   }
   .jstree-default-dark-responsive .jstree-open > .jstree-ocl {
@@ -2570,17 +2570,17 @@
     background-position: -40px -40px;
   }
   .jstree-default-dark-responsive .jstree-checkbox,
-.jstree-default-dark-responsive .jstree-checkbox:hover {
+  .jstree-default-dark-responsive .jstree-checkbox:hover {
     background-position: -40px -80px;
   }
   .jstree-default-dark-responsive.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox,
-.jstree-default-dark-responsive.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox:hover,
-.jstree-default-dark-responsive .jstree-checked > .jstree-checkbox,
-.jstree-default-dark-responsive .jstree-checked > .jstree-checkbox:hover {
+  .jstree-default-dark-responsive.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox:hover,
+  .jstree-default-dark-responsive .jstree-checked > .jstree-checkbox,
+  .jstree-default-dark-responsive .jstree-checked > .jstree-checkbox:hover {
     background-position: 0 -80px;
   }
   .jstree-default-dark-responsive .jstree-anchor > .jstree-undetermined,
-.jstree-default-dark-responsive .jstree-anchor > .jstree-undetermined:hover {
+  .jstree-default-dark-responsive .jstree-anchor > .jstree-undetermined:hover {
     background-position: 0 -120px;
   }
   .jstree-default-dark-responsive .jstree-anchor {
@@ -2614,10 +2614,10 @@
     box-shadow: none;
   }
   .jstree-default-dark-responsive .jstree-node,
-.jstree-default-dark-responsive .jstree-icon,
-.jstree-default-dark-responsive .jstree-node > .jstree-ocl,
-.jstree-default-dark-responsive .jstree-themeicon,
-.jstree-default-dark-responsive .jstree-checkbox {
+  .jstree-default-dark-responsive .jstree-icon,
+  .jstree-default-dark-responsive .jstree-node > .jstree-ocl,
+  .jstree-default-dark-responsive .jstree-themeicon,
+  .jstree-default-dark-responsive .jstree-checkbox {
     background-image: url("40px.png");
     background-size: 120px 240px;
   }
@@ -2742,15 +2742,15 @@
 
 @media (max-width: 767.98px) {
   #jstree-dnd.jstree-dnd-responsive > .jstree-ok,
-#jstree-dnd.jstree-dnd-responsive > .jstree-er,
-.jstree-default-responsive .jstree-icon,
-.jstree-default-responsive .jstree-node,
-.jstree-default-responsive .jstree-icon,
-.jstree-default-responsive .jstree-node > .jstree-ocl,
-.jstree-default-responsive .jstree-themeicon,
-.jstree-default-responsive .jstree-checkbox,
-.jstree-default-responsive .jstree-file,
-.jstree-default-responsive .jstree-folder {
+  #jstree-dnd.jstree-dnd-responsive > .jstree-er,
+  .jstree-default-responsive .jstree-icon,
+  .jstree-default-responsive .jstree-node,
+  .jstree-default-responsive .jstree-icon,
+  .jstree-default-responsive .jstree-node > .jstree-ocl,
+  .jstree-default-responsive .jstree-themeicon,
+  .jstree-default-responsive .jstree-checkbox,
+  .jstree-default-responsive .jstree-file,
+  .jstree-default-responsive .jstree-folder {
     background-image: url('./themes/default/40px.png');
   }
 }
@@ -2795,15 +2795,15 @@
 
 @media (max-width: 767.98px) {
   #jstree-dnd.jstree-dnd-responsive > .jstree-ok,
-#jstree-dnd.jstree-dnd-responsive > .jstree-er,
-.jstree-default-dark-responsive .jstree-icon,
-.jstree-default-dark-responsive .jstree-node,
-.jstree-default-dark-responsive .jstree-icon,
-.jstree-default-dark-responsive .jstree-node > .jstree-ocl,
-.jstree-default-dark-responsive .jstree-themeicon,
-.jstree-default-dark-responsive .jstree-checkbox,
-.jstree-default-dark-responsive .jstree-file,
-.jstree-default-dark-responsive .jstree-folder {
+  #jstree-dnd.jstree-dnd-responsive > .jstree-er,
+  .jstree-default-dark-responsive .jstree-icon,
+  .jstree-default-dark-responsive .jstree-node,
+  .jstree-default-dark-responsive .jstree-icon,
+  .jstree-default-dark-responsive .jstree-node > .jstree-ocl,
+  .jstree-default-dark-responsive .jstree-themeicon,
+  .jstree-default-dark-responsive .jstree-checkbox,
+  .jstree-default-dark-responsive .jstree-file,
+  .jstree-default-dark-responsive .jstree-folder {
     background-image: url('./themes/default-dark/40px.png');
   }
 }

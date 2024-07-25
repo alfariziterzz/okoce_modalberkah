@@ -456,9 +456,9 @@ div.dataTables_scrollFoot > .dataTables_scrollFootInner > table {
 
 @media screen and (max-width: 767px) {
   div.dataTables_wrapper div.dataTables_length,
-div.dataTables_wrapper div.dataTables_filter,
-div.dataTables_wrapper div.dataTables_info,
-div.dataTables_wrapper div.dataTables_paginate {
+  div.dataTables_wrapper div.dataTables_filter,
+  div.dataTables_wrapper div.dataTables_info,
+  div.dataTables_wrapper div.dataTables_paginate {
     text-align: center;
   }
   div.dataTables_wrapper div.dataTables_paginate ul.pagination {
@@ -710,9 +710,7 @@ div.dataTables_wrapper div.dataTables_filter {
 
 div.dataTables_wrapper div.dataTables_paginate ul.pagination .page-link {
   padding: 0.594rem 0.35rem;
-  min-width: calc(
-    1.938rem + 0px
-  );
+  min-width: calc(1.938rem + 0px);
   font-size: 0.75rem;
   line-height: 1;
 }
@@ -723,18 +721,16 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination .page-link div:not(
 @media screen and (max-width: 575.98px) {
   div.dataTables_wrapper div.dataTables_paginate ul.pagination .page-link {
     padding: 0.5rem 0.15rem;
-    min-width: calc(
-      1.75rem + 0px
-    );
+    min-width: calc(1.75rem + 0px);
     font-size: 0.75rem;
     line-height: 1;
   }
 }
 @media (max-width: 767.98px) {
   div.dataTables_wrapper div.dataTables_length label,
-div.dataTables_wrapper div.dataTables_filter label,
-div.dataTables_wrapper div.dataTables_info,
-div.dataTables_wrapper div.dataTables_paginate {
+  div.dataTables_wrapper div.dataTables_filter label,
+  div.dataTables_wrapper div.dataTables_info,
+  div.dataTables_wrapper div.dataTables_paginate {
     -ms-flex-pack: center;
         justify-content: center;
   }

@@ -88,7 +88,7 @@
 
 @media (max-width: 400px) {
   .bs-stepper-line,
-.bs-stepper .line {
+  .bs-stepper .line {
     -ms-flex-preferred-size: 20px;
     flex-basis: 20px;
   }
@@ -185,6 +185,8 @@
 .vertical .content.fade.dstepper-none {
   visibility: hidden;
 }
+
+
 .bs-stepper {
   border-radius: 0.375rem;
 }

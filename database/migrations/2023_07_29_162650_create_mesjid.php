@@ -12,7 +12,6 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('mesjid', function (Blueprint $table) {
-            $table->id();
             $table->uuid('ref');
             $table->string('nama',100);
             $table->integer('email',100)->nullable();

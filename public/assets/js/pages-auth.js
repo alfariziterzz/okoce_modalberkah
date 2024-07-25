@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
                 message: 'Please enter username'
               },
               stringLength: {
-                min: 6,
+                min: 4,
                 message: 'Username must be more than 6 characters'
               }
             }
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
                 message: 'Please enter email / username'
               },
               stringLength: {
-                min: 6,
+                min: 4,
                 message: 'Username must be more than 6 characters'
               }
             }
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
                 message: 'Please enter your password'
               },
               stringLength: {
-                min: 6,
+                min: 4,
                 message: 'Password must be more than 6 characters'
               }
             }
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
                 message: 'The password and its confirm are not the same'
               },
               stringLength: {
-                min: 6,
+                min: 4,
                 message: 'Password must be more than 6 characters'
               }
             }

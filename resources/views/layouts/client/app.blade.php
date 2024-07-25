@@ -59,7 +59,7 @@
       border-top-right-radius: 30px;
     }
     .navbar-nav .nav-item .nav-link.active {
-      color: red !important;
+      color: #E3242B !important;
     }
     @media (max-width: 767px) {
       .contact-info {
@@ -129,6 +129,8 @@
     @yield('content')
   </section>
   
+
+  <footer>
   <div class="blue-box">
     <div class="container">
     <p class="font-weight-normal text-muted pb-3">Support By</p>
@@ -148,7 +150,7 @@
       </div>
     </div>
   </div>
-  <footer class="footer-box">
+    <div class="footer-box">
     <div class="container">
       <p class="text-center p-0 m-0">Copyright © 2024<a href="#" class="px-1" style="color: #E3242B;">Modal Berkah.</a>All rights reserved.</p>
     </div>

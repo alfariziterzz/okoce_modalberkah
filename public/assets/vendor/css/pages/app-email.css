@@ -231,8 +231,8 @@
     background-color: transparent !important;
   }
   .app-email .email-list li:hover .email-list-item-meta .email-list-item-attachment,
-.app-email .email-list li:hover .email-list-item-meta .email-list-item-time,
-.app-email .email-list li:hover .email-list-item-meta .email-list-item-label {
+  .app-email .email-list li:hover .email-list-item-meta .email-list-item-time,
+  .app-email .email-list li:hover .email-list-item-meta .email-list-item-label {
     display: none !important;
   }
   .app-email .email-list li:hover .email-list-item-meta .email-list-item-actions {

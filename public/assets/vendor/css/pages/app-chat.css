@@ -50,7 +50,7 @@
 }
 @media (min-width: 992px) {
   .layout-horizontal .app-chat .app-chat-contacts .sidebar-body {
-    height: calc(calc(100vh - 11.5rem) - 5rem + calc(2.2rem / 2));
+    height: calc(calc(100vh - 11.5rem) - 5rem + 2.2rem / 2);
   }
 }
 @media (min-width: 1200px) {
@@ -202,8 +202,8 @@
 
 @media (max-width: 576px) {
   .app-chat .app-chat-sidebar-right.show,
-.app-chat .app-chat-sidebar-left.show,
-.app-chat .app-chat-contacts.show {
+  .app-chat .app-chat-sidebar-left.show,
+  .app-chat .app-chat-contacts.show {
     width: 100%;
   }
 }
