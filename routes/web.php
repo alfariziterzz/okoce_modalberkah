@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 // Galeri
 
+
+
 // Berita
 
 // Informasi

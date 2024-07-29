@@ -70,9 +70,32 @@
       .contact-info a {
         margin: 5px 10px;
       }
+      .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .navbar-nav .nav-item {
+        width: 100%;
+      }
+      .navbar-nav .nav-item .btn-logout {
+        width: 100%;
+        text-align: left;
+      }
     }
     .contact-info a {
       margin: 0 15px;
+    }
+    .navbar-nav {
+      display: flex;
+      align-items: center;
+    }
+    .navbar-nav .btn-logout {
+      margin-left: auto;
+      margin-top: 13px;
+    }
+    .navbar-nav .btn-logout button {
+      display: block;
     }
   </style>
 </head>
@@ -105,9 +128,11 @@
             <li class="nav-item">
               <a class="nav-link {{ Request::is('news-section') ? 'active' : '' }}" href="{{ url('/') }}">BERITA</a>
             </li>
-            <form action="{{ route('admin.logout') }}" method="POST">
-            @csrf
-            <button type="submit" class="btn btn-danger">Logout</button>
+            <li class="nav-item btn-logout">
+              <form action="{{ route('admin.logout') }}" method="POST">
+                @csrf
+                <button type="submit" class="btn btn-danger">Logout</button>
+              </form>
             </li>
           </ul>
         </div>
@@ -158,13 +183,5 @@
   <script src="{{ asset('assets/landing-page-sso/vendors/owl-carousel/js/owl.carousel.min.js') }}"></script>
   <script src="{{ asset('assets/landing-page-sso/vendors/aos/js/aos.js') }}"></script>
   <script src="{{ asset('assets/landing-page-sso/js/landingpage.js') }}"></script>
-  <script>
-    $(function() {
-      $('.pop').on('click', function() {
-        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
-        $('#imagemodal').modal('show');   
-      });		
-    });
-  </script>
 </body>
 </html>

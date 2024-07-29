@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
@@ -11,6 +10,9 @@ class CmsAdminLoginController extends Controller
 {
     public function showLoginForm()
     {
+        if (Auth::guard('cms_admin')->check()) {
+            return redirect()->route('admin.dashboard');
+        }
         return view('auth.admin-login');
     }
 

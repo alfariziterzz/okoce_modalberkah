@@ -15,7 +15,7 @@
     <section id="zakat" class="mb-10">
         <div class="container">
           <center>
-            <img src="{{ asset('assets/img/zakat.jpeg') }}" width="50%" class="img-fluid">
+            <img src="{{ asset('assets/img/zakat.jpeg') }}" width="50%ass="img-fluid">
           </center>
           <br>
         </div>
